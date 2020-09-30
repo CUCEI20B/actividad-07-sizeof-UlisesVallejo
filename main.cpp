@@ -3,7 +3,9 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    int a;
+    cin >> a;
+    cout << sizeof(a);
 
     return 0;
 }
